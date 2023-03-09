@@ -1,0 +1,295 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.navbar-image img{
+  height: 4rem;
+  width: 4rem;
+}
+
+.nav-text a{
+  position:relative;
+  font-size: large;
+  right: 10%;
+}
+
+.nav-text .navbar-link{
+  margin:12px;
+}
+
+
+.homepage .carousal-item{
+  background-color: rgb(203, 20, 102);
+  border: 1px solid rgb(203, 20, 102);
+}
+.homepage .carousal-item img{
+   height: 70vh;
+   width: 86vw;
+}
+
+.below-step{
+  background-color: #282c34;
+  height: 80vh;
+  width: auto;
+}
+ .text-design{
+  border: 10px soid red;
+}
+.text-design h2{
+  color:#61dafb;
+  font-size: 46px;
+  padding: 2rem;
+}
+.column1 h3{
+  color:yellow;
+}
+.column1 h4{
+  color:white;
+}
+.container .column2 img{
+  height: 55%;
+  width:auto;
+  position:absolute;
+  right:4%;
+}
+
+.trash{
+  background: linear-gradient(315deg, hsla(139, 81%, 65%, 1) 0%, hsla(283, 33%, 46%, 1) 100%);
+}
+
+.trash .text-value h2{
+  background-color: aqua;
+  padding: 2rem;
+  color: rgb(216, 25, 114);
+  font-size: 44px;
+}
+
+.mycontainer .col-1 img{
+  height: 55%;
+  width:auto;
+  border: 2px solid black;
+}
+
+.mycontainer .col-1 h3{
+  color: yellow; 
+}
+.mycontainer .col-1 h5{
+  color:aliceblue;
+  background-color: rgb(70, 6, 6);
+  border: 3px solid cyan;
+}
+
+
+
+.mycontainer .col-2 img{
+  height: 45%;
+  width:90%;
+  border: 2px solid black;
+}
+
+.mycontainer .col-2 h3{
+  color: yellow; 
+}
+.mycontainer .col-2 h5{
+  color:aliceblue;
+  background-color: rgb(130, 9, 110);
+  border: 3px solid rgb(229, 255, 0);
+}
+
+.mycontainer .col-3{
+  margin-top: -120px;
+}
+.mycontainer .col-3 img{
+  height: 45%;
+  width:90%;
+  border: 2px solid black;
+}
+
+.mycontainer .col-3 h3{
+  color: yellow; 
+}
+.mycontainer .col-3 h5{
+  color:aliceblue;
+  background-color: blue;
+  border: 3px solid rgb(130, 9, 110);
+}
+
+
+.service{
+  background-color: #282c34;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.service .s1{
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  border: 2px solid white;
+  border-radius: 2rem;
+  width: 90vw;
+}
+.service .s1 h1{
+  color:aqua;
+  text-decoration: underline;
+}
+.service .s1 h3{
+  color:white;
+}
+.service .s1 h4{
+  color:rgb(235, 71, 107);
+}
+.service .s1 p{
+  color:yellow;
+}
+
+.service .contain-box{
+  margin-top: 3rem;
+}
+
+.service .contain-box h2{
+  color:chartreuse;
+}
+
+.service .s1 .bx-3{
+  height: 30px;
+}
+
+.connect{
+  background-color: #282c34;
+  display:flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0 200px 0;
+  height: auto;
+}
+
+.connect h1{
+  color:rgb(229, 255, 0);
+}
+
+.connect img {
+  width: 92%;
+}
+
+/* css */
+.connect form input, .connect form textarea {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  color: #fff;
+  margin: 0 0 8px 0;
+  padding: 18px 26px;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  transition: 0.3s ease-in-out;
+}
+.connect form input:focus, .connect form textarea:focus {
+  background: rgba(255, 255, 255, 1);
+  color: #121212;
+}
+.connect form input::placeholder, .connect form textarea::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+.connect form input:focus::placeholder, .connect form textarea:focus::placeholder {
+  color: #121212;
+  opacity: 0.8;
+}
+.connect form button {
+  font-weight: 800;
+  color: #fff;
+  background-color: rgb(93, 36, 131);;
+  /*background-color: rgb(30, 27, 27);*/
+  padding: 14px 48px;
+  font-size: 20px;
+  margin-top: 25px;
+  border-radius: 0;
+  position: relative;
+  transition: 0.3s ease-in-out;
+}
+
+.connect form button:hover {
+  color: yellow;
+}
+
+.connect form button:hover::before {
+  width: 100%;
+}
+
+.announcement{
+  background-color: #282c34;
+}
+
+.announcement .my-announce {
+  padding:2rem;
+}
+
+.announcement .mydiv {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+}
+.announcement .mydiv > form {
+  width: 70%;
+  border: 1px solid #dfdfdf;
+  padding: 20px;
+  border-radius: 5px;
+  background: #fff;
+}
+pre {
+  width: 70%;
+  color: #fff;
+  font-size: larger;
+}
+
+.announcement .mydiv button {
+  background: #0563b4 !important;
+}
+.announcement .mydiv p {
+  color: red;
+}
